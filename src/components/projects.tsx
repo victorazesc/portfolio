@@ -6,11 +6,13 @@ const ProjectItem = ({
   description,
   linkColor,
   linkText,
+  link
 }: {
   title: string;
   description: string;
   linkColor: string;
   linkText: string;
+  link: string
 }) => {
   return (
     <div
@@ -26,7 +28,7 @@ const ProjectItem = ({
       </div>
       <a
         style={{ color: linkColor }}
-        href="#"
+        href={link}
         className={`text-lg font-semibold hover:underline`}
       >
         {linkText}
@@ -42,12 +44,14 @@ const ProjectsSection = () => {
       description: "Aplicativo administrativo para Mei",
       linkColor: "#986DFF",
       linkText: "Visualizar Projeto",
+      link: "#"
     },
     {
       title: "DB",
       description: "Empresa de regulamentações e Registros sanitários",
       linkColor: "#F9BB07",
       linkText: "Visualizar Projeto",
+      link: "https://www.db-assuntosregulatorios.com/login"
     },
     {
       title: "Auê",
