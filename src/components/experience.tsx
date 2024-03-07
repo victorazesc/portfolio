@@ -56,7 +56,7 @@ const ExperienceSection: React.FC = () => {
   };
 
   return (
-    <div className="w-screen font-roboto m-auto md:p-10 p-4 bg-zinc-500 bg-opacity-[0.05] flex flex-col justify-center items-start gap-14">
+    <div className="font-roboto m-auto md:p-10 p-4 bg-zinc-500 bg-opacity-[0.05] flex flex-col justify-center items-start gap-14">
       <div className="container mt-20 mb-20 m-auto">
         <div className="flex items-center mb-14">
           <span className="text-white text-4xl font-semibold font-gothicA1 break-words">

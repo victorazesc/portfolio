@@ -11,7 +11,7 @@ const Navbar: React.FC = () => {
 
   return (
     <nav className="bg-zinc-950 p-4 top-0 fixed left-0 right-0 z-50">
-      <div className="max-w-screen-xl mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex items-center justify-between">
         <Link
           to="#header"
           className="text-white text-2xl font-semibold md:hidden"
@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
         </div>
       </div>
 
-      <div className="max-w-screen-xl mx-auto flex items-center justify-between">
+      <div className="container mx-auto flex items-center justify-between">
         <Link
           to="/"
           className="text-white text-2xl font-semibold hidden md:block"
