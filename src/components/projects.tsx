@@ -60,6 +60,7 @@ const ProjectsSection = () => {
       description: "Repositório de vagas front end",
       linkColor: "#00FFB8",
       linkText: "Visualizar Projeto",
+      link: "https://www.frontendbr.com"
     },
     {
       title: "Logo",
@@ -72,6 +73,7 @@ const ProjectsSection = () => {
       description: "Aplicativo para aluguel de locais para eventos",
       linkColor: "#4E20E0",
       linkText: "Visualizar Projeto",
+      link: "https://cenarioz.azevedo.click/"
     },
   ];
 
