@@ -10,7 +10,7 @@ import Technologies from "../components/technologies";
 const IndexPage = () => {
   return (
     <>
-      <main className="text-gray-700 pl-4 pr-4 bg-zinc-950 font-roboto container m-auto">
+      <main className="text-gray-700 pl-4 pr-4 bg-zinc-950 font-sans container m-auto">
         <Navbar />
         <div id={"header"}></div>
         <Header />

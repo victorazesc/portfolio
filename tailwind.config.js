@@ -8,7 +8,7 @@ module.exports = {
     extend: {
       colors: {
         purple: {
-          600: "#986DFF",
+          600: "#C336FF",
         },
         yellow: {
           600: "#F9BB07",
@@ -21,7 +21,7 @@ module.exports = {
         'custom-purple-dark': '#4E20E0',
       },
       fontFamily: {
-        roboto: ["roboto"],
+        roboto: ["roboto", "open-sans"],
       },
     },
   },

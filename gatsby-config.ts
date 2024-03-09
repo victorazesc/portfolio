@@ -48,7 +48,7 @@ const config: GatsbyConfig = {
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [`roboto`],
+        fonts: [`roboto`, `Open Sans`],
         // display: "",
       },
     },

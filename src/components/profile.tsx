@@ -1,5 +1,6 @@
 import { Link } from "gatsby";
 import React from "react";
+import { MdOutlineFileDownload } from "react-icons/md";
 import {
   PiDiscordLogo,
   PiGithubLogo,
@@ -35,25 +36,25 @@ const Profile: React.FC = () => {
     <div className="w-full h-full flex justify-center items-center space-x-10 mb-40">
       <div className="md:ml-8 md:mr-8 px-15 bg-zinc-500 bg-opacity-[0.05] rounded-lg overflow-hidden flex justify-start items-center space-x-15">
         <div className="flex-1 self-stretch p-4 pr-5 pl-5 flex flex-col justify-start overflow-hidden items-start space-y-5">
-          <div className="self-stretch text-purple-600 text-xl font-semibold break-words">
+          <div className="self-stretch text-purple-600 text-xl font-extralight break-words">
             Quem sou eu
           </div>
-          <div className="self-stretch text-white text-5xl font-medium break-words">
+          <div className="self-stretch text-white text-[2.5rem] font-medium break-words">
             Victor Azevedo
           </div>
-          <div className="self-stretch text-white text-xl font-medium break-words">
+          <div className="self-stretch text-white text- font-medium break-words">
             Fullstack developer
           </div>
-          <div className="self-stretch text-xl h-203.62 opacity-75 text-white font-normal leading-7 break-words">
+          <div className="self-stretch text-lg h-203.62 opacity-75 text-white font-light leading-7 break-words">
             Oi, sou Victor Azevedo, ou Azevedo para os amigos. Desenvolvedor
             Full Stack, especializado em backend e Cloud Native. Sou o criador
-            do 'frontendbr', um repositório de vagas para devs frontend. Com
+            do <span className="text-purple-600 font-bold">'frontendbr'</span>, um repositório de vagas para devs frontend. Com
             formação em Licenciatura em Informática e pós-graduação em
             Desenvolvimento Full Stack, estou sempre em busca de novos desafios
             na tecnologia. Vamos criar juntos!
           </div>
           <div className="self-stretch flex flex-col justify-center items-center">
-            <div className="md:grid-cols-5 grid-cols-3 grid gap-5 mt-4">
+            <div className="md:grid-cols-6 grid-cols-3 grid gap-5 mt-4">
               {links.map((link) => {
                 return (
                   <Link
@@ -66,6 +67,12 @@ const Profile: React.FC = () => {
                   </Link>
                 );
               })}
+              <Link
+                className="bg-purple-600 flex py-2 px-4 items-center gap-4 rounded-md text-lg font-light text-white  hover:underline"
+                to="#projects"
+              >
+                Download CV <MdOutlineFileDownload />
+              </Link>
             </div>
           </div>
         </div>
