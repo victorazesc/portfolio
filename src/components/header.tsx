@@ -49,13 +49,6 @@ const Header = () => {
         </div>
       </div>
       <div className="w-full relative md:mb-0 -mb-28">
-        <div
-          className="max-w-lg h-full w-full left-0 top-8 absolute z-10"
-          style={{
-            background:
-              "linear-gradient(340deg, rgb(9, 9, 11) 22%, rgba(9, 9, 11, 0) 100%)",
-          }}
-        ></div>
         <StaticImage
           width={500}
           src="../images/profile.png"
