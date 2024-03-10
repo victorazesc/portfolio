@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { LuCalendarDays, LuGraduationCap } from "react-icons/lu";
 
 interface Experience {
   id: number;
@@ -56,64 +57,96 @@ const ExperienceSection: React.FC = () => {
   };
 
   return (
-    <div className="font-roboto m-auto md:p-10 p-4 bg-zinc-500 bg-opacity-[0.05] flex flex-col justify-center items-start gap-14">
-      <div className="container mt-20 mb-20 m-auto">
-        <div className="flex items-center mb-14">
-          <span className="text-white text-4xl font-semibold font-gothicA1 break-words">
-            Experiências{" "}
+    <div className="m-auto md:p-10 p-4 bg-zinc-500 bg-opacity-[0.05] flex flex-col justify-center items-start gap-14">
+      <div className="max-w-3xl flex flex-col justify-center mx-auto">
+        <div className="flex flex-col items-center mb-14">
+          <span className="text-white text-3xl font-semibold">
+            Qualificações
           </span>
-          <span className="text-purple-500 text-3xl font-semibold font-gothicA1 break-words">
-            .
+          <span className="text-white">
+            Minha Jornada até aqui
           </span>
         </div>
-        <div className="self-stretch flex-start items-start gap-10 flex md:flex-row flex-col">
-          <div className="md:w-1/3 w-full md:pr-10 bg-zinc-950 flex flex-col justify-start items-start">
-            {experiences.map((experience) => (
-              <div
-                key={experience.id}
-                className="flex items-center cursor-pointer h-20"
-                onClick={() => showExperienceContent(experience)}
-              >
-                <div
-                  className={`border-l-2 h-full ${
-                    selectedExperience?.company === experience.company
-                      ? "border-purple-600"
-                      : "border-transparent"
-                  } relative pl-4`}
-                ></div>
-
-                <div
-                  className={`${
-                    selectedExperience?.company === experience.company
-                      ? "text-purple-600"
-                      : "text-white"
-                  } text-2xl font-gothicA1 font-normal break-words`}
-                >
-                  {experience.company}
-                </div>
-              </div>
-            ))}
+        <div className="text-white">
+          <div className="flex justify-evenly mb-3 text-2xl font-semibold">
+            <h2 className="flex items-center gap-2"><LuGraduationCap /> Formações</h2>
+            <h2 className="flex items-center gap-2"><LuGraduationCap /> Formações</h2>
           </div>
-          <div className="md:w-2/3 w-full self-stretch md:p-10 flex flex-col justify-start items-start gap-10">
-            {selectedExperience && (
-              <div>
-                <div className="flex justify-between md:flex-row flex-col">
-                  <div className="text-white text-center text-2xl mb-3 font-gothicA1 font-normal">
-                    {selectedExperience.title}
-                  </div>
-                  <div className="text-gray-500 text-center mb-3 text-base font-gothicA1 font-normal">
-                    {selectedExperience.date}
-                  </div>
-                </div>
 
-                <div className="text-purple-600 mb-3 text-xl font-gothicA1 font-normal break-words">
-                  {selectedExperience.company}
-                </div>
-                <div className="text-gray-500 text-base font-gothicA1 font-normal break-words">
-                  {selectedExperience.content}
-                </div>
-              </div>
-            )}
+          <div className="grid gap-6" style={{ gridTemplateColumns: "1fr max-content 1fr" }}>
+            <div>
+              <p>Ciencias da Computação</p>
+              <p className="text-gray-400">SC - Descomplica</p>
+              <p className="py-3 text-gray-500 flex gap-2 items-center"><LuCalendarDays /> Set. 2022 - Set. 2026</p>
+            </div>
+            <div>
+              <span className="block w-3 h-3 bg-purple-600 rounded-full"></span>
+              <span className="block w-px h-full bg-purple-600 transform translate-x-[6px] -translate-y-[7px]"></span>
+            </div>
+          </div>
+          <div className="grid gap-6" style={{ gridTemplateColumns: "1fr max-content 1fr" }}>
+            <div>
+              <p>Pós graduação em sistemas fullstack</p>
+              <p className="text-gray-400">SC - Uniasselvi</p>
+              <p className="py-3 text-gray-500 flex gap-2 items-center"><LuCalendarDays /> Mar. 2021 - Abr. 2022</p>
+            </div>
+            <div>
+              <span className="block w-3 h-3 bg-purple-600 rounded-full"></span>
+              <span className="block w-px h-full bg-purple-600 transform translate-x-[6px] -translate-y-[7px]"></span>
+            </div>
+            <div>
+              <p>Engenheiro de software</p>
+              <p className="text-gray-400">Saks Global</p>
+              <p className="py-3 text-gray-500 flex gap-2 items-center"><LuCalendarDays /> Nov. 2021 - Até o momento</p>
+            </div>
+          </div>
+          <div className="grid gap-6" style={{ gridTemplateColumns: "1fr max-content 1fr" }}>
+            <div></div>
+            <div>
+              <span className="block w-3 h-3 bg-purple-600 rounded-full"></span>
+              <span className="block w-px h-full bg-purple-600 transform translate-x-[6px] -translate-y-[7px]"></span>
+            </div>
+            <div>
+              <p>Desenvolvedor FullStack</p>
+              <p className="text-gray-400">SC - INBRAEP</p>
+              <p className="py-3 text-gray-500 flex gap-2 items-center"><LuCalendarDays /> Nov. 2020 - Nov. 2021</p>
+            </div>
+          </div>
+          <div className="grid gap-6" style={{ gridTemplateColumns: "1fr max-content 1fr" }}>
+            <div></div>
+            <div>
+              <span className="block w-3 h-3 bg-purple-600 rounded-full"></span>
+              <span className="block w-px h-full bg-purple-600 transform translate-x-[6px] -translate-y-[7px]"></span>
+            </div>
+            <div>
+              <p>Empresário</p>
+              <p className="text-gray-400">SC - Azevedo Sistemas Autonomos</p>
+              <p className="py-3 text-gray-500 flex gap-2 items-center"><LuCalendarDays /> Set. 2018 - Nov. 2020</p>
+            </div>
+          </div>
+          <div className="grid gap-6" style={{ gridTemplateColumns: "1fr max-content 1fr" }}>
+            <div></div>
+            <div>
+              <span className="block w-3 h-3 bg-purple-600 rounded-full"></span>
+              <span className="block w-px h-full bg-purple-600 transform translate-x-[6px] -translate-y-[7px]"></span>
+            </div>
+            <div>
+              <p>Professor de informática</p>
+              <p className="text-gray-400">SC - Escola Victor Meirelles</p>
+              <p className="py-3 text-gray-500 flex gap-2 items-center"><LuCalendarDays /> Set. 2017 - Nov. 2018</p>
+            </div>
+          </div>
+          <div className="grid gap-6" style={{ gridTemplateColumns: "1fr max-content 1fr" }}>
+            <div>
+              <p>Licenciatura em informática</p>
+              <p className="text-gray-400">SC - Uniasselvi</p>
+              <p className="py-3 text-gray-500 flex gap-2 items-center"><LuCalendarDays /> Fev. 2014 - Dez. 2016</p>
+            </div>
+            <div>
+              <span className="block w-3 h-3 bg-purple-600 rounded-full"></span>
+            </div>
+            <div>
+            </div>
           </div>
         </div>
       </div>
