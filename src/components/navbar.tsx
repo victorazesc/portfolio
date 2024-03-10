@@ -1,6 +1,7 @@
 import { Link } from "gatsby";
 import { StaticImage } from "gatsby-plugin-image";
 import React, { useState } from "react";
+import { IoSunnyOutline } from "react-icons/io5";
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -89,6 +90,12 @@ const Navbar: React.FC = () => {
             className="block text-white mt-4 md:inline-block md:mt-0 hover:text-gray-400"
           >
             Conhecimentos
+          </Link>
+          <Link
+            to="#technologies"
+            className="block text-white mt-4 md:inline-block md:mt-0 hover:text-gray-400"
+          >
+            <IoSunnyOutline size={25} />
           </Link>
         </div>
       </div>
