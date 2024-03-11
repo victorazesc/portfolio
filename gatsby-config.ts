@@ -13,6 +13,7 @@ const config: GatsbyConfig = {
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
+    // 'gatsby-plugin-dark-mode',
     {
       resolve: "gatsby-plugin-manifest",
       options: {

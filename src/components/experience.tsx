@@ -60,14 +60,14 @@ const ExperienceSection: React.FC = () => {
     <div className="m-auto md:p-10 p-4flex flex-col justify-center items-start gap-14">
       <div className="max-w-3xl flex flex-col justify-center mx-auto">
         <div className="flex flex-col items-center mb-14">
-          <span className="text-white text-3xl font-semibold">
+          <span className=" text-3xl font-semibold">
             Qualificações
           </span>
-          <span className="text-white">
+          <span className="">
             Minha Jornada até aqui
           </span>
         </div>
-        <div className="text-white">
+        <div className="">
           <div className="flex justify-evenly mb-3 text-2xl font-semibold">
             <h2 className="flex items-center gap-2"><LuGraduationCap /> Formações</h2>
             <h2 className="flex items-center gap-2"><LuGraduationCap /> Formações</h2>

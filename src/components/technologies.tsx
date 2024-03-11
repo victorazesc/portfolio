@@ -118,11 +118,10 @@ const TechnologiesComponent = () => {
     <div id="technologies" className="container mt-28 mb-28 p-4">
       <div className="grid md:grid-cols-2 grid-cols-1">
         <div className="pr-5">
-          <div className="text-3xl font-medium text-white mb-6">
+          <div className="text-3xl font-medium mb-6">
             <span>Tecnologias</span>
-            <span className="text-purple-600">.</span>
           </div>
-          <div className="text-xl opacity-75 mb-6 text-white">
+          <div className="text-xl opacity-75 mb-6">
             {selectedStack?.content ??
               "*passe o cursor do mouse no card para ler*"}
           </div>

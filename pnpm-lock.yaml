@@ -17,6 +17,9 @@ dependencies:
   gatsby-omni-font-loader:
     specifier: ^2.0.2
     version: 2.0.2(gatsby@5.13.3)(react-helmet@6.1.0)
+  gatsby-plugin-dark-mode:
+    specifier: ^1.1.2
+    version: 1.1.2(react@18.2.0)
   gatsby-plugin-google-fonts:
     specifier: ^1.0.1
     version: 1.0.1
@@ -6430,6 +6433,15 @@ packages:
       '@parcel/runtime-js': 2.8.3(@parcel/core@2.8.3)
       '@parcel/transformer-js': 2.8.3(@parcel/core@2.8.3)
       '@parcel/transformer-json': 2.8.3(@parcel/core@2.8.3)
+    dev: false
+
+  /gatsby-plugin-dark-mode@1.1.2(react@18.2.0):
+    resolution: {integrity: sha512-kq/7/KSIgyYxolSqLxXfmcC/iBU98XpRGcIOaa3bjjl8Tb0WDYwfa45zABx1XNjB0YecWdgniss+kqmeAu04GA==}
+    peerDependencies:
+      react: 16.x
+    dependencies:
+      prop-types: 15.8.1
+      react: 18.2.0
     dev: false
 
   /gatsby-plugin-google-fonts@1.0.1:

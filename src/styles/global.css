@@ -2,11 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.dark {
+  background: #09090b;
+  color: white
+}
 
 body {
   margin: 0;
   line-height: inherit;
-  background: #09090b;
+  background: white;
+  color: #09090b;
   font-weight: 200;
 }
 

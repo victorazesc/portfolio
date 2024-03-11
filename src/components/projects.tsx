@@ -17,7 +17,7 @@ const ProjectItem = ({
   return (
     <div
       id="projects"
-      className="h-52 p-8 flex flex-col justify-between bg-zinc-950 text-white rounded-lg"
+      className="h-52 p-8 flex flex-col justify-between dark:bg-zinc-950 bg-white rounded-lg"
     >
       <div>
         <div className="flex justify-between">
@@ -32,7 +32,7 @@ const ProjectItem = ({
               link ? <a
                 target="_blank"
                 href={link}
-                className="block text-white mt-4 md:inline-block md:mt-0 hover:text-gray-400"
+                className="block mt-4 md:inline-block md:mt-0 hover:text-gray-400"
               >
                 <PiLink size={25} />
               </a> : <PiHourglassSimpleHighFill size={25} color="gray" />
@@ -41,7 +41,7 @@ const ProjectItem = ({
               <a
                 target="_blank"
                 href="#technologies"
-                className="block text-white mt-4 md:inline-block md:mt-0 hover:text-gray-400"
+                className="block mt-4 md:inline-block md:mt-0 hover:text-gray-400"
               >
                 <PiGithubLogoLight size={25} />
               </a> : <PiLock size={25} color="grey" />
@@ -50,7 +50,7 @@ const ProjectItem = ({
 
           </div>
         </div>
-        <p className="mt-2 mb-2 text-base opacity-75 text-white">
+        <p className="mt-2 mb-2 text-base opacity-75">
           {description}
         </p>
       </div>
@@ -156,7 +156,7 @@ const ProjectsSection = () => {
   return (
     <div className="w-full h-full pb-10 p-4 flex flex-col justify-center bg-zinc-500 bg-opacity-[0.05] items-start rounded-lg">
       <div className="w-full p-2 pb-9 flex justify-center items-start">
-        <h1 className="text-3xl font-medium text-white">Projetos Principais</h1>
+        <h1 className="text-3xl font-medium">Projetos Principais</h1>
       </div>
       <div className="w-full md:grid-cols-3 grid-cols-1 grid gap-5">
         {projects.map((project, index) => (
