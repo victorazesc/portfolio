@@ -10,4 +10,22 @@ body {
   font-weight: 200;
 }
 
+.alert {
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  display: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+.alert_default {
+  background: #C336FF;
+  color: #f0f0f0;
+  display: block;
+}

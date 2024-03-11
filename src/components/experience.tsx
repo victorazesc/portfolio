@@ -57,7 +57,7 @@ const ExperienceSection: React.FC = () => {
   };
 
   return (
-    <div className="m-auto md:p-10 p-4 bg-zinc-500 bg-opacity-[0.05] flex flex-col justify-center items-start gap-14">
+    <div className="m-auto md:p-10 p-4flex flex-col justify-center items-start gap-14">
       <div className="max-w-3xl flex flex-col justify-center mx-auto">
         <div className="flex flex-col items-center mb-14">
           <span className="text-white text-3xl font-semibold">
