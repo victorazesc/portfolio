@@ -31,9 +31,9 @@ const Header = () => {
           Contato <BsSend />
         </Link>
       </div>
-      <div className="w-full">
+      <div className="w-full flex items-center justify-center">
         <img
-          width={400}
+          className="md:w-96 w-80"
           src="profile.png"
           alt="profile"
         ></img>

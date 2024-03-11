@@ -1,7 +1,7 @@
 import React from "react";
 const Footer = () => {
   return (
-    <div className="w-full h-20 py-[25px] bg-zinc-500 bg-opacity-[0.05] justify-between  font-roboto  items-center  inline-flex">
+    <div className="w-full px-4 h-20 py-[25px] bg-zinc-500 bg-opacity-[0.05] justify-between  font-roboto  items-center  inline-flex">
       <div className="container m-auto flex justify-between items-center">
         <div className="text-xs font-semibold font-['Gothic A1'] tracking-wide">
           Copyright © {new Date().getFullYear()} azevedo.link. Todos os direitos
