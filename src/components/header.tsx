@@ -1,5 +1,4 @@
 import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
 import { BsSend } from "react-icons/bs";
 import React from "react";
 const Header = () => {
