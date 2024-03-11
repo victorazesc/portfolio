@@ -2,9 +2,7 @@ import { Link } from "gatsby";
 import React from "react";
 import { MdOutlineFileDownload } from "react-icons/md";
 import {
-  PiDiscordLogo,
   PiGithubLogo,
-  PiInstagramLogo,
   PiLinkedinLogo,
   PiMediumLogo,
 } from "react-icons/pi";
@@ -91,12 +89,13 @@ const Profile: React.FC = () => {
                   </Link>
                 );
               })}
-              <Link
+              <a
                 className="bg-purple-600 flex px-4 items-center gap-2 rounded-md text-base font-light text-white  hover:underline"
-                to="#projects"
+                href="Victor henrique de azevedo.pdf"
+                download
               >
                 Download CV <MdOutlineFileDownload />
-              </Link>
+              </a>
             </div>
           </div>
         </div>

@@ -26,17 +26,17 @@ const Header = () => {
         </div>
         <Link
           className="bg-purple-600 flex py-2 px-4 items-center gap-4 rounded-md text-lg font-light text-white  hover:underline"
-          to="#projects"
+          to="#contact"
         >
           Contato <BsSend />
         </Link>
       </div>
       <div className="w-full">
-        <StaticImage
+        <img
           width={400}
-          src="../images/profile.png"
+          src="profile.png"
           alt="profile"
-        ></StaticImage>
+        ></img>
       </div>
     </div>
   );

@@ -23,7 +23,7 @@ const Contact = () => {
 
     }
     return (
-        <div className="m-auto md:p-10 mb-16 p-4flex flex-col justify-center items-start gap-14">
+        <div id="contact" className="m-auto md:p-10 mb-16 p-4flex flex-col justify-center items-start gap-14">
             <div className="max-w-3xl flex flex-col justify-center mx-auto">
                 <div className="flex flex-col items-center mb-14">
                     <h1 className="text-white text-3xl font-semibold">
