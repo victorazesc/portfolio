@@ -70,6 +70,20 @@ const ProjectItem = ({
 const ProjectsSection = () => {
   const projects = [
     {
+      logo: "ecommerce-logo.svg",
+      description: "Ecommerce feito em next.js",
+      link: "https://ecommerce.azevedo.link",
+      githubLink: "https://github.com/victorazesc/ecommerce",
+      stacks: [
+        'Next',
+        'MongoDB',
+        'Mysql',
+        'HTML',
+        'CSS',
+        'Typescript'
+      ]
+    },
+    {
       logo: "zeus-logo.svg",
       description: "Aplicativo administrativo para Mei",
       link: "https://zeus.azevedo.link",
@@ -140,6 +154,7 @@ const ProjectsSection = () => {
       logo: "cenarioz-logo.svg",
       description: "Aplicativo para aluguel de locais para eventos",
       link: "https://cenarioz.azevedo.click/",
+      githubLink: "https://github.com/cenarioz/",
       stacks: [
         'Nest.js',
         'AWS',
