@@ -40,7 +40,7 @@ const ProjectItem = ({
             {githubLink ?
               <a
                 target="_blank"
-                href="#technologies"
+                href={githubLink}
                 className="block mt-4 md:inline-block md:mt-0 hover:text-gray-400"
               >
                 <PiGithubLogoLight size={25} />
@@ -69,6 +69,20 @@ const ProjectItem = ({
 
 const ProjectsSection = () => {
   const projects = [
+    {
+      logo: "weather-logo.svg",
+      description: "Ferramente de clima feita em react",
+      link: "https://weather.azevedo.link",
+      githubLink: "https://github.com/victorazesc/teste-fontend-amicci",
+      stacks: [
+        'React',
+        'Shadcn',
+        'Jest',
+        'HTML',
+        'CSS',
+        'Typescript'
+      ]
+    },
     {
       logo: "ecommerce-logo.svg",
       description: "Ecommerce feito em next.js",
