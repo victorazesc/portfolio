@@ -70,6 +70,21 @@ const ProjectItem = ({
 const ProjectsSection = () => {
   const projects = [
     {
+      logo: "threads.svg",
+      description: "Rede social",
+      link: "https://threads.azevedo.click",
+      githubLink: "https://github.com/victorazesc/threads",
+      stacks: [
+        'React',
+        'Next.js',
+        'mongodb',
+        'Shadcn',
+        'HTML',
+        'CSS',
+        'Typescript'
+      ]
+    },
+    {
       logo: "weather-logo.svg",
       description: "Ferramente de clima feita em react",
       link: "https://weather.azevedo.click",
