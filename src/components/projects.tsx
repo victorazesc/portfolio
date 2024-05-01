@@ -72,7 +72,7 @@ const ProjectsSection = () => {
     {
       logo: "weather-logo.svg",
       description: "Ferramente de clima feita em react",
-      link: "https://weather.azevedo.link",
+      link: "https://weather.azevedo.click",
       githubLink: "https://github.com/victorazesc/teste-fontend-amicci",
       stacks: [
         'React',
@@ -86,7 +86,7 @@ const ProjectsSection = () => {
     {
       logo: "ecommerce-logo.svg",
       description: "Ecommerce feito em next.js",
-      link: "https://ecommerce.azevedo.link",
+      link: "https://ecommerce.azevedo.click",
       githubLink: "https://github.com/victorazesc/ecommerce",
       stacks: [
         'Next',
@@ -100,7 +100,7 @@ const ProjectsSection = () => {
     {
       logo: "zeus-logo.svg",
       description: "Aplicativo administrativo para Mei",
-      link: "https://zeus.azevedo.link",
+      link: "https://zeus.azevedo.click",
       githubLink: "https://github.com/victorazesc/zeus",
       stacks: [
         'PHP',
