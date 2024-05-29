@@ -88,7 +88,7 @@ const ProjectsSection = () => {
       logo: "weather-logo.svg",
       description: "Ferramente de clima feita em react",
       link: "https://weather.azevedo.click",
-      githubLink: "https://github.com/victorazesc/teste-fontend-amicci",
+      githubLink: "https://github.com/victorazesc/wheater",
       stacks: [
         'React',
         'Shadcn',
