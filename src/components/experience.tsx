@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { BsRocket } from "react-icons/bs";
 import { LuCalendarDays, LuGraduationCap } from "react-icons/lu";
 
 interface Experience {
@@ -14,6 +15,14 @@ const ExperienceSection: React.FC = () => {
     useState<Experience | null>(null);
 
   const experiences: Experience[] = [
+    {
+      id: 1,
+      title: "Engenheiro de Software",
+      date: "Nov 2021 - Até o momento (1 ano e 11 meses)",
+      company: "Saks",
+      content:
+        "Trabalho como programador full-stack com foco em backend na Saks. Minha responsabilidade inclui o desenvolvimento de um sistema de contratação e gerenciamento de previdência privada, tanto a nível nacional quanto internacional. Um dos maiores desafios é integrar diversas APIs de seguradoras e bancos internacionais, além de criar ferramentas para verificar a autenticidade de documentos. O objetivo é proporcionar uma experiência fluída e fácil para a contratação de planos de previdência privada.",
+    },
     {
       id: 1,
       title: "Engenheiro de Software",
@@ -70,7 +79,7 @@ const ExperienceSection: React.FC = () => {
         <div className="">
           <div className="flex justify-evenly mb-3 text-2xl font-semibold">
             <h2 className="flex items-center gap-2"><LuGraduationCap /> Formações</h2>
-            <h2 className="flex items-center gap-2"><LuGraduationCap /> Formações</h2>
+            <h2 className="flex items-center gap-2"><BsRocket /> Experiencias</h2>
           </div>
 
           <div className="grid gap-6" style={{ gridTemplateColumns: "1fr max-content 1fr" }}>
@@ -82,6 +91,11 @@ const ExperienceSection: React.FC = () => {
             <div>
               <span className="block w-3 h-3 bg-purple-600 rounded-full"></span>
               <span className="block w-px h-full bg-purple-600 transform translate-x-[6px] -translate-y-[7px]"></span>
+            </div>
+            <div>
+              <p>Lider Técnico de engenharia</p>
+              <p className="text-gray-400">Amicci</p>
+              <p className="py-3 text-gray-500 flex gap-2 items-center"><LuCalendarDays /> Jun. 2024 - Até o momento</p>
             </div>
           </div>
           <div className="grid gap-6" style={{ gridTemplateColumns: "1fr max-content 1fr" }}>
@@ -97,7 +111,7 @@ const ExperienceSection: React.FC = () => {
             <div>
               <p>Engenheiro de software</p>
               <p className="text-gray-400">Saks Global</p>
-              <p className="py-3 text-gray-500 flex gap-2 items-center"><LuCalendarDays /> Nov. 2021 - Até o momento</p>
+              <p className="py-3 text-gray-500 flex gap-2 items-center"><LuCalendarDays /> Nov. 2021 - Jun. 2024</p>
             </div>
           </div>
           <div className="grid gap-6" style={{ gridTemplateColumns: "1fr max-content 1fr" }}>
