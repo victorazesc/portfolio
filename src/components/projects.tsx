@@ -70,6 +70,34 @@ const ProjectItem = ({
 const ProjectsSection = () => {
   const projects = [
     {
+      logo: "expertise.png",
+      description: "Site para empresa de energia solar e compra de cotas de energia",
+      link: "https://www.expertiseenergia.com.br/",
+      githubLink: "https://github.com/victorazesc/expertiseenergia",
+      stacks: [
+        'Next.js',
+        'Postgres',
+        'HTML',
+        'CSS',
+        'Typescript'
+      ]
+    },
+    {
+      logo: "saks.svg",
+      description: "Aplicativo de investimentos internacional e previdencia privada",
+      link: "https://saks.global/",
+      githubLink: "https://github.com/hellosaks",
+      stacks: [
+        'flutter',
+        'nest.js',
+        'postgres',
+        'Python',
+        'HTML',
+        'CSS',
+        'Typescript'
+      ]
+    },
+    {
       logo: "threads.svg",
       description: "Rede social",
       link: "https://threads.azevedo.click",
