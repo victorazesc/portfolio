@@ -70,6 +70,19 @@ const ProjectItem = ({
 const ProjectsSection = () => {
   const projects = [
     {
+      logo: "dsin-logo.png",
+      description: "Portal para prefeituras, com integração com o sistema de contas municipais",
+      link: "https://www.dsin.com.br/",
+      stacks: [
+        'Next.js',
+        'Postgres',
+        'HTML',
+        'CSS',
+        'Typescript',
+        'Shadcn'
+      ]
+    },
+    {
       logo: "expertise.png",
       description: "Site para empresa de energia solar e compra de cotas de energia",
       link: "https://www.expertiseenergia.com.br/",

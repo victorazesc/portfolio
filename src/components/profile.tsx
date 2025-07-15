@@ -82,14 +82,14 @@ const Profile: React.FC = () => {
                   <Link
                     to={link.link}
                     target="_blank"
-                    className="p-2 hover:border-purple-600 hover:border dark:bg-zinc-950 text-purple-600 bg-white text-2xl rounded-lg overflow-hidden flex justify-center items-center space-x-10"
+                    className="p-2 hover:border-purple-600 hover:border dark:bg-zinc-950 dark:text-purple-600 text-black bg-white text-2xl rounded-lg overflow-hidden flex justify-center items-center space-x-10"
                   >
                     {link.icon}
                   </Link>
                 );
               })}
               <a
-                className="bg-purple-600 flex px-4 items-center gap-2 rounded-md text-base font-light text-white  hover:underline"
+                className="bg-purple-600 flex px-4 items-center gap-2 rounded-md text-base font-light text-black  hover:underline"
                 href="Victor henrique de azevedo.pdf"
                 download
               >

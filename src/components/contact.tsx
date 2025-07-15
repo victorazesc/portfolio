@@ -37,13 +37,13 @@ const Contact = () => {
             <div className="flex flex-col md:flex-row mx-auto justify-center px-4 gap-4">
                 <div
                     id="email"
-                    className="bg-purple-600 cursor-pointer text-white flex py-2 px-4 items-center gap-4 rounded-md text-lg font-light hover:underline"
+                    className="bg-purple-600 cursor-pointer text-black flex py-2 px-4 items-center gap-4 rounded-md text-lg font-light hover:underline"
                     onClick={() => copiarTexto()}
                 >
                     <IoMailOutline /> victorazesc@hotmail.com <IoCopyOutline />
                 </div>
                 <a
-                    className="bg-purple-600 flex py-2 px-4 text-white items-center gap-4 rounded-md text-lg font-light hover:underline"
+                    className="bg-purple-600 flex py-2 px-4 text-black items-center gap-4 rounded-md text-lg font-light hover:underline"
                     href="https://www.linkedin.com/in/victorazesc"
                     target="_Blank"
                 >

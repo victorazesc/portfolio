@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         purple: {
-          600: "#C336FF",
+          600: "#91DDFC",
         },
         yellow: {
           600: "#F9BB07",

@@ -13,7 +13,7 @@ export function Cookie() {
                     <div className="flex items-center text-2xl gap-4 pb-4"><LuCookie /> <h1>Aceita um Cookie ?</h1></div>
                     <p className="text-lg">Este site usa cookies para melhorar a experiência do usuário.</p>
                     <div className="flex justify-end gap-4 pt-4">
-                        <button className="bg-purple-600 py-3 px-4 rounded-md text-white" onClick={acceptCookies}>Aceitar</button>
+                        <button className="bg-purple-600 py-3 px-4 rounded-md text-black" onClick={acceptCookies}>Aceitar</button>
                         <button className="bg-zinc-600 py-3 px-4 rounded-md text-white" onClick={deniedCookies}>Recusar</button>
                     </div>
                 </div>

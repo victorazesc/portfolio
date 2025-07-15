@@ -132,7 +132,7 @@ const TechnologiesComponent = () => {
               <div
                 onMouseEnter={() => setSelectedStack(tech)}
                 onMouseLeave={() => setSelectedStack(null)}
-                className="w-20 h-20 text-5xl flex items-center hover:border-purple-600 hover:border rounded-md justify-center text-center bg-zinc-500 bg-opacity-[0.05] text-purple-600"
+                className="w-20 h-20 text-5xl flex items-center dark:hover:border-purple-600 hover:border rounded-md justify-center text-center bg-zinc-500 bg-opacity-[0.05] dark:text-purple-600 text-black"
               >
                 {tech.icon}
               </div>

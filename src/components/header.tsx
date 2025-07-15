@@ -24,7 +24,7 @@ const Header = () => {
           </div>
         </div>
         <Link
-          className="bg-purple-600 flex py-2 px-4 items-center gap-4 rounded-md text-lg font-light text-white hover:underline"
+          className="bg-purple-600 flex py-2 px-4 items-center gap-4 rounded-md text-lg font-light text-black hover:underline"
           to="#contact"
         >
           Contato <BsSend />
