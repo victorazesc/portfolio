@@ -33,7 +33,7 @@ const Header = () => {
       <div className="w-full flex items-center justify-center">
         <img
           className="md:w-96 w-80"
-          src="profile.png"
+          src="profile_v2.png"
           alt="profile"
         ></img>
       </div>
