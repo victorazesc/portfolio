@@ -14,6 +14,13 @@ import { Cookie } from "../components/cookie";
 const IndexPage = () => {
   return (
     <>
+      <script
+        defer
+        data-website-id="N8PT1alvovf7Q0JN43K2y"
+        data-domain="www.azevedo.click"
+        src="https://track-mint.vercel.app/js/script.js">
+      </script>
+
       <Cookie />
       <div id="custom-alert"></div>
 
