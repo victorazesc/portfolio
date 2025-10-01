@@ -18,7 +18,7 @@ const IndexPage = () => {
         defer
         data-website-id="N8PT1alvovf7Q0JN43K2y"
         data-domain="www.azevedo.click"
-        src="https://track-mint.vercel.app/js/script.js">
+        src="https://trackmint.app/js/script.js">
       </script>
 
       <Cookie />
