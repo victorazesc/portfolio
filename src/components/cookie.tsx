@@ -7,7 +7,7 @@ export function Cookie() {
     return (
         <div>
             {isConsented ? (
-                <p>Os cookies foram aceitos.</p>
+                <></>
             ) : (
                 <div className="border-zinc-800 border-2 dark:bg-zinc-950 bg-white z-50 rounded-md left-6 bottom-6 fixed p-6">
                     <div className="flex items-center text-2xl gap-4 pb-4"><LuCookie /> <h1>Aceita um Cookie ?</h1></div>
