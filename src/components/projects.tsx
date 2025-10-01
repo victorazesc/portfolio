@@ -23,6 +23,7 @@ const ProjectItem = ({
         <div className="flex justify-between">
           <img
             width={30}
+            className="rounded-md border border-zinc-200 dark:border-zinc-700 bg-white/80 dark:bg-zinc-900/80 p-1 shadow-sm object-contain"
             style={{ opacity: 0.9 }}
             src={logo}
             alt="logo"
