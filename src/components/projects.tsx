@@ -71,6 +71,36 @@ const ProjectItem = ({
 const ProjectsSection = () => {
   const projects = [
     {
+      logo: "sailup-logo.svg",
+      description: "CRM completo com funil de vendas, automações e integrações",
+      link: "https://www.sailup.com.br/",
+      stacks: [
+        'Next.js',
+        'Postgres',
+        'HTML',
+        'CSS',
+        'Typescript',
+        'Shadcn',
+        'socket.io',
+        'redis'
+      ]
+    },
+    {
+      logo: "mailkiller-logo.svg",
+      description: "Limpador de caixa de email com IA",
+      link: "https://www.mailkiller.com.br/",
+      stacks: [
+        'Next.js',
+        'Postgres',
+        'HTML',
+        'CSS',
+        'Typescript',
+        'Shadcn',
+        'socket.io',
+        'redis'
+      ]
+    },
+    {
       logo: "dsin-logo.png",
       description: "Portal para prefeituras, com integração com o sistema de contas municipais",
       link: "https://www.dsin.com.br/",
