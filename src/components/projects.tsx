@@ -143,7 +143,7 @@ const ProjectsSection = () => {
     },
     {
       logo: "threads.svg",
-      description: "Rede social",
+      description: "Réplica open source do Threads para estudos",
       link: "https://threads.azevedo.click",
       githubLink: "https://github.com/victorazesc/threads",
       stacks: [
