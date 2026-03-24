@@ -4,14 +4,13 @@ import { MdOutlineFileDownload } from "react-icons/md";
 import {
   PiGithubLogo,
   PiLinkedinLogo,
-  PiMediumLogo,
 } from "react-icons/pi";
 
 const Profile: React.FC = () => {
 
   const experiences = [
     {
-      number: "6+",
+      number: "+10",
       type: "Anos",
       about: "De Experiência"
     },
@@ -35,10 +34,6 @@ const Profile: React.FC = () => {
     {
       link: "https://github.com/victorazesc",
       icon: <PiGithubLogo />,
-    },
-    {
-      link: "https://medium.com/victorazesc",
-      icon: <PiMediumLogo />,
     },
   ];
   return (
